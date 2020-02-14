@@ -41,11 +41,11 @@ function result(){
     }
 
     else if(operacion == '-'){
-        pantalla.value = parseInt(pantalla.value) - parseInt(valor_anterior);
+        pantalla.value = parseInt(valor_anterior) - parseInt(pantalla.value);
     }
 
-    else if(operacion === '/'){
-        pantalla.value = parseInt(pantalla.value) / parseInt(valor_anterior);
+    else if(operacion == '/'){
+        pantalla.value = parseInt(valor_anterior) / parseInt(pantalla.value);
     }
 }
 
